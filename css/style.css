@@ -26,7 +26,8 @@ button{
 }
 /*members*/
 .members{
-    max-width: 1280px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .container{
     max-width: 997px;
