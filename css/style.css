@@ -1,0 +1,77 @@
+/*reset*/
+html{
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:#263238;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+button{
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+    background-color: #fff;
+}
+/*members*/
+.members{
+    max-width: 1280px;
+}
+.container{
+    max-width: 997px;
+    margin: 0 auto;
+    padding-top: 68px;
+    padding-bottom: 73px;
+}
+.h2-members{
+    margin-bottom: 98px;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 1;
+    color: #49464F;
+}
+.h4-member>p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.4;
+    color: #49464F;
+}
+.information{
+    display: flex;
+    column-gap: 134px;
+}
+.h4-member{
+    font-weight: 400;
+    line-height: 1;
+    color: #49464F;
+}
+.h4-member.element1{
+    font-size: 29px;
+    max-width: 246px;
+}
+.h4-member.element2{
+    font-size: 28px;
+    max-width: 256px;
+}
+.h4-member.element3{
+    font-size: 28px;
+    max-width: 227px;
+}
+.h4-member.element1 >h4,
+.h4-member.element3 > h4{
+    margin-bottom: 19px;
+}
+.h4-member.element2 > h4{
+    margin-bottom: 47px;
+}
