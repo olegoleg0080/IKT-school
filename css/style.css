@@ -32,6 +32,68 @@ button{
 .container{
     max-width: 997px;
     margin: 0 auto;
+}
+/*want to*/
+.want-to {
+    background-color: #F5F5F7;
+}
+.want-to>.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 208px;
+    max-width: 1040px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.want-cont {
+    padding-top: 116px;
+}
+.h2-want {
+    font-weight: 400;
+    font-size: 67px;
+    line-height: 1;
+    color: #2E2C34;
+}
+.h2-want.element1{
+    max-width: 235px;
+}
+.h2-want.element2{
+    max-width: 186px;
+}
+.want-btn {
+    width: 180px;
+    height: 39px;
+    margin-top: 53px;
+
+    border: 1px solid #2E2C34;
+    border-radius: 999px;
+}
+.p-want-btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #2E2C34;
+}
+.ul-want {
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+}
+.li-want {
+    position: relative;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.2;
+    color: #2E2C34;
+}
+.li-want::before{
+    position: absolute;
+    left: -44px;
+    content: url(../img/svg/plus.svg#plus);
+}
+/*members*/
+.members > .container{
     padding-top: 68px;
     padding-bottom: 73px;
 }
