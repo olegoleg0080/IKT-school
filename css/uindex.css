@@ -1,0 +1,110 @@
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color:#263238;
+}
+button{
+    padding: 0;
+    cursor: pointer;
+    border: 0;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+html {
+    box-sizing: border-box;
+    }
+    
+html *,
+    ::after,
+    ::before {
+    box-sizing: inherit;
+    }
+    
+body {
+    margin: 0;
+    font-family: helvetica;
+}
+article{
+    padding: 101px 0;
+}
+.advertising-container{
+    max-width: 1186px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.advertising-container.element1{
+    column-gap: 80px;
+}
+.advertising-container.element2{
+    flex-direction: row-reverse;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    column-gap: 72px;
+}
+.advertising-wrrap-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.advertising-title{
+    margin-bottom: 20px;
+}
+.advertising-text{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.advertising-wrrap-text{
+    max-width: 531px;
+    text-align: start;
+}
+.advertising-title{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+    color: #0F4C92;
+}
+.advertising-subtitle{
+    font-weight: 700;
+font-size: 20px;
+line-height: 1.2;
+
+color: #1B1B1B;
+}
+.advertising-subtitle>span{
+    font-weight: 800;
+} 
+.advertising-text{
+    font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+
+color: #1B1B1B;
+}
+.advertising-btn{
+    width: 284px;
+    height: 57px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    
+    background: #0D599C;
+    color: #fff;
+    border-radius: 95px;
+}
